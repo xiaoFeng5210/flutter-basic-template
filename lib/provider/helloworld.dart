@@ -1,14 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-final helloWorldProvider = NotifierProvider<HelloWorldNotifier, String>(HelloWorldNotifier.new);
 
-class HelloWorldNotifier extends Notifier<String> {
-  @override
-  String build() {
-    return 'Hello world';
-  }
+// 简单的不用修改的数据可以用这种方式
+final helloWorldProvider = Provider((_) => 'Hello world');
 
-  void changeStr(String str) {
-    state = str;
-  }
-}
