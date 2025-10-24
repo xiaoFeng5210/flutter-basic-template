@@ -4,7 +4,7 @@ const double headLineMediumFontSize = 48;
 const double headLineSmallFontSize = 36;
 
 const double titleLargeFontSize = titleMediumFontSize + 4;
-const double titleMediumFontSize = 32;
+const double titleMediumFontSize = 36;
 const double titleSmallFontSize = titleMediumFontSize - 4;
 
 const double bodyLargeFontSize = bodyMediumFontSize + 4;
